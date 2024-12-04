@@ -1,0 +1,9 @@
+{
+  "server_address": ":8080",
+  "database_host": "localhost",
+  "database_port": "5432",
+  "database_user": "postgres",
+  "database_pass": "1",
+  "database_name": "marvel",
+  "database_ssl": "disable"
+}
