@@ -52,4 +52,4 @@
   ```http
   GET http://localhost:8080/characters/1009351
 
-
+---
