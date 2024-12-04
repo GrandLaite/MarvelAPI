@@ -53,3 +53,8 @@
   GET http://localhost:8080/characters/1009351
 
 ---
+
+## Ссылки
+
+- [Видеодемонстрация](https://www.youtube.com/watch?v=_pa_9eZCaDU)  
+- [Файл с базой данных](https://github.com/GrandLaite/MarvelAPI/blob/main/assets/db/marvel-api.sql)  
