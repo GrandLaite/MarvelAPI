@@ -2,7 +2,7 @@ package characters
 
 import (
 	"encoding/json"
-	"marvel-api/pkg/pagination"
+	"marvel-api/internal/pagination"
 	"net/http"
 	"strconv"
 
