@@ -1,7 +1,4 @@
 # Marvel API
-
-Реализация копии Marvel API
-
 ---
 
 ## Описание
@@ -29,11 +26,11 @@
 ---
 
 ### 2. HTTP-Endpoint для получения информации о герое
-- **Метод**: `GET`
-- **URL**: `/characters/{characterId}`
-- **Описание**: Возвращает полную информацию о герое с указанным `characterId`.
-- **Формат ответа**: `JSON`
-- **Поля ответа**:
+**Метод**: `GET`
+**URL**: `/characters/{characterId}`
+**Описание**: Возвращает полную информацию о герое с указанным `characterId`.
+**Формат ответа**: `JSON`
+**Поля ответа**:
   - `id` — уникальный идентификатор героя.
   - `name` — имя героя.
   - `description` — описание героя.
@@ -50,3 +47,15 @@
 - Запрос без параметров:
   ```http
   GET http://localhost:8080/characters
+- Запрос с параметрами пагинации:
+  ```http
+  GET http://localhost:8080/characters?limit=80&offset=650
+
+### 2. Получение информации о герое по ID
+**URL**: `http://localhost:8080/characters/characterID`
+- Запрос информации о Халке:
+  ```http
+  GET http://localhost:8080/characters/1009351
+
+
+
